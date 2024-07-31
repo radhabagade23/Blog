@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(background-image.jpg);
+}
+.header-section {
+    background-color: rgb(35, 28, 28);
+    height: 80px;
+    color: rgb(238, 238, 244);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10em;
+}
+
+.header-section nav {
+    display: flex;
+    gap: 3em;
+}
+
+.header-section nav a {
+    color: rgb(238, 238, 244);
+    justify-content: center;
+}
+
+#home{
+    text-align: center;
+}
+#home h2{
+    margin-top: 30px;
+    font-size: 40px;
+    color: rgb(98, 59, 135);
+}
+#home p{
+    margin-top: 20px;
+    font-weight: 550;
+    font-size: 23px;
+}
+
+#posts h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    color: rgb(98, 59, 135);
+}
+#posts article h3{
+    margin-top: 20px;
+    font-weight: 550;
+    font-size: 23px;
+}
+
+#posts article p{
+    margin-top: 15px;
+}
+
+.comment{
+    margin-top: 30px;
+}
+#name{
+    margin-top: 10px;
+}
+#email{
+    margin-top: 10px;
+}
+#comment{
+    margin-top: 10px;
+}
+button{
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(126, 93, 156);
+    font-weight: 600;
+}
+#about h2{
+    text-align: center;
+    color: rgb(98, 59, 135);
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+footer{
+    margin-top: 10px;
+}
